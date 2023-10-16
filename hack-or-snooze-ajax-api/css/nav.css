@@ -1,0 +1,35 @@
+/* Navigation bar */
+
+nav {
+  position: relative;
+  display: flex;
+  background-color: #ff6600;
+  align-items: center;
+  padding: 20px 20px;
+  border-radius: 3px 3px 0 0;
+}
+
+.navbar-brand {
+  font-weight: bold;
+}
+
+.nav-link,
+.nav-submit-Story {
+  font-size: 15px;
+  margin: 0 3px;
+}
+.navbar-left {
+  padding: 20px 20px;
+  border-radius: 3px 3px 0 0;
+  position: relative;
+  padding: 10px;
+  flex-grow: 8;
+  align-self: flex-start;
+  text-align: right;
+  width: max-content;
+  color: black;
+  margin-right: 0;
+}
+.nav-right {
+  margin-left: 0;
+}
